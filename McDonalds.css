@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img { 
+    width:20%; 	
+}
+
+img {
+	height:20%
+}
+
+
+
+#header_box1 {
+		outline: 2px gold;
+		background-color: black;
+		padding:40px;
+		text-align: center;
+		color: gold;
+		font-family: 'Shrikhand', cursive;
+		font-size:25pt;
+		border:2px solid gold
+	}
+
+#header_box2 {
+		background-color: black;
+		padding:30px;
+		text-align: center;
+		color: gold;
+		border:2px solid gold;
+		font-family:Forte;
+	}
+
+	
+			 #info_1 {
+		font-size:20pt;
+		color:black;
+		}
+
+nav {
+	overflow:hidden;
+	background-color:black;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.2)
+	border-top: 2px solid gold;
+	border-bottom: 2px solid gold;
+	margin-top: 20px;
+	width:100%;
+	border:gold;
+	display:flex;
+	font-family:Forte;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 35px 10px;
+	float: left;
+	display: block;
+	background-color:black;
+}
+	nav a:hover:not(.active), .hover .dropbtn {
+		background-color:black;
+		color:gold;
+	}
+
+	
+	
+		.dropdown {
+		float:left;
+		overflow: hidden;
+	}
+	
+	.dropdown .dropbtn {
+		border: none;
+		outline: none;
+		font-size:12pt;
+		color:white;
+		padding: 10px 15px;
+		background-color:inherit;
+		font-family:Forte;
+		margin: 0;
+	}
+	
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color:black;
+		min-width:160px;
+		box-shadow: 0px 8px 16px 0px rgba(,0,0,0,0.2);
+		z-index:1;
+	}
+	
+	.dropdown-content a{
+		float: none;
+		color: white;
+		padding: 10px 15px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		font-family:Forte;
+	}
+	
+	.dropdown:hover .dropdown-content {
+		display:block;
+	}

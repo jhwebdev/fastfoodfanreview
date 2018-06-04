@@ -1,0 +1,59 @@
+img { 
+    width:15%; 	
+}
+
+img {
+	height:20%
+}
+
+#Header_1 {
+	color:gold;
+	background-color:black;
+	padding:30px;
+	border:2px solid gold;
+	text-align:center;
+	font-family:'Shrikhand', cursive;
+	font-size:20pt;
+	}
+#paragraph_ {
+	font-size:16pt;
+	}
+
+
+#Header_2 {
+	color:gold;
+	background-color:black;
+	padding:20px;
+	border:2px solid gold;
+	font-family:Forte;
+	}
+	
+.navigation_bar1 {
+		background-color: black;
+		border-top: 2px solid gold;
+		border-bottom: 2px solid gold;
+		margin-top: 20px;
+		width:100%
+		color:blue;
+		outline:gold;
+		text-align:center;
+		display: flex;
+		justify-content: space-around;
+		
+
+	
+	}
+	.navigation_bar1 a{
+							font-family:forte;
+							text-decoration: none;
+	padding: 1em;
+	color:white;
+	display: block;
+	}
+		
+							
+							
+	
+				 #info_1 {
+		font-size:20pt;
+		}
